@@ -4,25 +4,6 @@
   <artifactId>onlinebookstore</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-	
-	
-<distributionManagement>
-  
-  <repository>
-    <name>central</name>
-    <id>Pipeline-libs-release-local</id>
-    <url>http://3.1.206.95:8082/artifactory/onlinebookstore1-libs-release-local/</url>
-  </repository>
-  
-  
-  <snapshotRepository>
-    <id>central</id>
-    <name>onlinebookstore1-libs-snapshot-local</name>
-    <url>http://3.1.206.95:8082/artifactory/onlinebookstore1-libs-snapshot-local/</url>
-  </snapshotRepository>
-
-</distributionManagement>	
-	
 
   <build>
     <sourceDirectory>src</sourceDirectory>
