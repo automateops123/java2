@@ -46,4 +46,13 @@
   		<version>3.1.0</version>
   	</dependency>
   </dependencies>
+	
+<distributionManagement>
+  <repository>
+    <name>central</name>
+    <id>WebPageJob</id>
+    <url>http://3.1.206.95:8082/artifactory/WebPageJob/</url>
+  </repository>
+</distributionManagement>
+	
 </project>
