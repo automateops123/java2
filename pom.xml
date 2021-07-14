@@ -48,6 +48,22 @@
   	</dependency>
   </dependencies>
 	
+<distributionManagement>
+	 
+  <repository>
+    <name>central</name>
+    <id>jfrogjenkinsrepo</id>
+    <url>http://3.0.19.130:8082/artifactory/jfrogjenkinsrepo/</url>
+  </repository>
+  
+  
+  <snapshotRepository>
+    <id>central</id>
+    <name>jfrogjenkinsrepo</name>
+    <url>http://3.0.19.130:8082/artifactory/jfrogjenkinsrepo/</url>
+  </snapshotRepository>
 
+</distributionManagement>
+	
 	
 </project>
